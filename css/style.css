@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    background-color: #1E1E1E;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    border: 6px solid #FF0000;
+    padding: 70px;
+}
+
+.part1 {
+    margin-top: 80px;
+    margin: auto 0;
+}
+
+.first-btn {
+    border: 1px solid #FF7A00;
+    border-radius: 0%;
+
+}
+
+.first-btn:hover {
+    border: 1px solid #FF7A00;
+}
+
+.Second-btn {
+
+    border: 1px solid #FF7A00;
+    border-radius: 0%;
+    color: #FF7A00;
+    background-color: #FF7A00;
+}
+
+.Second-btn:hover {
+    background-color: #FF7A00;
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icons {
+    margin-left: 188px;
+    margin-bottom: 1px;
+
+}
+
+.icons2 {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.time {
+    margin-left: 345px;
+}
+
+.part2 {
+    padding: 21px;
+    border: 1px solid #FF7A00;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.part3 {
+    padding: 43px;
+    border: 1px solid #FF7A00;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+
+.horizontal {
+    width: 95%;
+}
+
+.last {
+    margin-left: 600px;
+}
