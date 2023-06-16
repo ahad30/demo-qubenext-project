@@ -10,13 +10,31 @@ body {
 .container {
     width: 1200px;
     border: 6px solid #FF0000;
-    padding: 70px;
+    padding: 60px;
+    animation: slide-in 2s ease-in forwards;
 }
+
+@keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+
 
 .part1 {
     margin-top: 80px;
-    margin: auto 0;
 }
+
+.btn{
+    margin-left: 140px;
+}
+
 
 .first-btn {
     border: 1px solid #FF7A00;
@@ -46,7 +64,7 @@ body {
 }
 
 .icons {
-    margin-left: 188px;
+    margin-left: 173px;
     margin-bottom: 1px;
 
 }
@@ -57,7 +75,7 @@ body {
 }
 
 .time {
-    margin-left: 345px;
+    margin-left: 329px;
 }
 
 .part2 {
@@ -78,7 +96,6 @@ body {
     border-bottom-left-radius: 20px;
 
 }
-
 
 .horizontal {
     width: 95%;
