@@ -29,6 +29,7 @@ body {
     margin-top: 80px;
 }
 
+
 .btn{
     margin-left: 140px;
 }
@@ -61,6 +62,13 @@ body {
     align-items: flex-start;
 }
 
+.media2{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    margin-top: -74px;;
+}
+
 .icons {
     margin-left: 173px;
     margin-bottom: 1px;
@@ -68,32 +76,92 @@ body {
 }
 
 .icons2 {
-    margin-left: 40px;
+    margin-left: 88px;
     margin-top: 10px;
 }
 
 .time {
-    margin-left: 329px;
+    margin-left: 325px;
 }
 
 .part2 {
-    padding: 21px;
+    height: 300px;
+    width: 500px;
+    position: relative;
     border: 1px solid #FF7A00;
-    border-bottom-right-radius: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 0 6px 100px 6px;
+    padding: 1rem;
+    margin-bottom: 67px;
+    
 }
+
+.part2:before {
+    content: "";
+    width: 64%;
+    height: 68px;
+    border-radius: 0 77px 0 0;
+    border-top: 1px solid #FF7A00;
+    border-left: 1px solid #FF7A00;
+    border-right: 1px solid #FF7A00;
+    position: absolute;
+    top: 0px;
+    left: -1px;
+  }
+
+  .part-2-hr {
+    width: 16.5%;
+    height: 3px;
+    position: absolute;
+    left: 892px;
+    right: 0;
+    bottom: 0;
+    top: 111px;
+    background-color: #FF7A00;
+    color: #FF7A00;
+  }
+
+
 
 .part3 {
     padding: 43px;
-    border: 1px solid #FF7A00;
-    border-bottom-right-radius: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-
+    height: 285px;
+    width: 1019px;
+    position: relative;
+    border-radius: 0 6px 100px 6px;
+    border-left: 1px solid #FF7A00;
+    border-right: 1px solid #FF7A00;
+    border-bottom: 1px solid #FF7A00 ;
 }
+
+
+.part3:before {
+    content: "";
+    width: 46%;
+    height: 67px;
+    border-radius: 0 77px 0 0;
+    border-top: 1px solid #FF7A00;
+    border-left: 1px solid #FF7A00;
+    border-right: 1px solid #FF7A00;
+    position: absolute;
+    top: -66px;
+    left: -1px;
+  
+  
+  }
+
+.part-3-hr{
+    width: 48.5%;
+    height: 3px;
+    position: absolute;
+    left: 527px;
+    right: 0;
+    bottom: 0;
+    top: 458px;
+    background-color: #FF7A00;
+    color: #FF7A00;
+}
+
+
 
 .horizontal {
     width: 95%;
